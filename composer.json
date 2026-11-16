@@ -1,0 +1,18 @@
+{
+    "name": "theagency2627/socialite-launcher",
+    "description": "Socialite provider voor inloggen met de Game Launcher.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.5",
+        "laravel/socialite": "^5.0"
+    },
+    "autoload": {
+        "psr-4": { "TheAgency2627\\SocialiteLauncher\\": "src/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["TheAgency2627\\SocialiteLauncher\\LauncherServiceProvider"]
+        }
+    }
+}
